@@ -1,2 +1,4 @@
 *__pycache__*build/
 dist/
+Oracle_utils/__pycache__/
+Oracle.egg-info/
