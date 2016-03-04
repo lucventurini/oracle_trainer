@@ -284,9 +284,10 @@ def main():
 
     #First part: let's start with the cdhit FASTA file...
     logger.debug("Checking the TWINSCAN configuration.")
-    if (not os.path.exists(args.twinscan)) or \
-            (not os.path.isdir(args.twinscan)) or \
-            (not os.path.exists( os.path.join(args.twinscan, "bin", "iscan"))):
+    if (not os.path.exists(args.twinscan)) and \
+            (not os.path.isdir(args.twinscan)) and \
+            (not os.path.exists( os.path.join(args.twinscan, "bin", "iscan"))) \
+            and shutil.which("iscan") is None:
         logger.critical("TwinScan not found!")
         sys.exit(1)
     os.environ['TWINSCAN']=args.twinscan

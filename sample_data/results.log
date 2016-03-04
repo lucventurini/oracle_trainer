@@ -1,0 +1,3 @@
+2016-03-04 16:11:32,045 - prepare_dataset - WARNING ---- Starting the batch analysis.
+2016-03-04 16:11:32,069 - prepare_dataset - ERROR ---- MODEL1 failed at the INITIALIZATION level
+2016-03-04 16:11:53,544 - prepare_dataset - WARNING ---- Run finished.

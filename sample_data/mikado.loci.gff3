@@ -1,0 +1,231 @@
+##gff-version 3
+##sequence-region mitochondria 1 366924
+##sequence-region chloroplast 1 154478
+##sequence-region Chr5 1 26975502
+##sequence-region Chr4 1 18585056
+##sequence-region Chr3 1 23459830
+##sequence-region Chr2 1 19698289
+##sequence-region Chr1 1 30427671
+Chr5	test_loci	superlocus	26575364	26579730	.	-	.	ID=test_superlocus:Chr5-:26575364-26579730;Name=superlocus:Chr5-:26575364-26579730
+Chr5	test_loci	ncRNA_gene	26575364	26579730	19	-	.	ID=mikado.Chr5G1;Parent=test_superlocus:Chr5-:26575364-26579730;Name=mikado.Chr5G1;multiexonic=True
+Chr5	test_loci	ncRNA	26575711	26579730	19	-	.	ID=mikado.Chr5G1.1;Parent=mikado.Chr5G1;Name=mikado.Chr5G1.1;abundance=1.141582;alias=cl_Chr5.6271;canonical_junctions=1,2,3,4,5,6,7,8,9,10;canonical_number=10;canonical_proportion=1.0;primary=True
+Chr5	test_loci	exon	26575711	26575797	.	-	.	ID=mikado.Chr5G1.1.exon1;Parent=mikado.Chr5G1.1;Name=mikado.Chr5G1.1.exon1
+Chr5	test_loci	exon	26575885	26575944	.	-	.	ID=mikado.Chr5G1.1.exon2;Parent=mikado.Chr5G1.1;Name=mikado.Chr5G1.1.exon2
+Chr5	test_loci	exon	26576035	26576134	.	-	.	ID=mikado.Chr5G1.1.exon3;Parent=mikado.Chr5G1.1;Name=mikado.Chr5G1.1.exon3
+Chr5	test_loci	exon	26576261	26577069	.	-	.	ID=mikado.Chr5G1.1.exon4;Parent=mikado.Chr5G1.1;Name=mikado.Chr5G1.1.exon4
+Chr5	test_loci	exon	26577163	26577288	.	-	.	ID=mikado.Chr5G1.1.exon5;Parent=mikado.Chr5G1.1;Name=mikado.Chr5G1.1.exon5
+Chr5	test_loci	exon	26577378	26577449	.	-	.	ID=mikado.Chr5G1.1.exon6;Parent=mikado.Chr5G1.1;Name=mikado.Chr5G1.1.exon6
+Chr5	test_loci	exon	26577856	26577937	.	-	.	ID=mikado.Chr5G1.1.exon7;Parent=mikado.Chr5G1.1;Name=mikado.Chr5G1.1.exon7
+Chr5	test_loci	exon	26578239	26578792	.	-	.	ID=mikado.Chr5G1.1.exon8;Parent=mikado.Chr5G1.1;Name=mikado.Chr5G1.1.exon8
+Chr5	test_loci	exon	26579079	26579161	.	-	.	ID=mikado.Chr5G1.1.exon9;Parent=mikado.Chr5G1.1;Name=mikado.Chr5G1.1.exon9
+Chr5	test_loci	exon	26579301	26579395	.	-	.	ID=mikado.Chr5G1.1.exon10;Parent=mikado.Chr5G1.1;Name=mikado.Chr5G1.1.exon10
+Chr5	test_loci	exon	26579602	26579730	.	-	.	ID=mikado.Chr5G1.1.exon11;Parent=mikado.Chr5G1.1;Name=mikado.Chr5G1.1.exon11
+Chr5	test_loci	ncRNA	26575364	26578163	17	-	.	ID=mikado.Chr5G1.2;Parent=mikado.Chr5G1;Name=mikado.Chr5G1.2;alias=cuff_cufflinks_star_at.23553.1;fpkm=2.9700103727;canonical_junctions=1,2,3,4,5,6,7,8;canonical_number=8;canonical_proportion=1.0;ccode=j;conf_hi=3.260618;conf_lo=2.679403;cov=81.895309;frac=0.732092;primary=False
+Chr5	test_loci	exon	26575364	26575410	.	-	.	ID=mikado.Chr5G1.2.exon1;Parent=mikado.Chr5G1.2;Name=mikado.Chr5G1.2.exon1
+Chr5	test_loci	exon	26575495	26575620	.	-	.	ID=mikado.Chr5G1.2.exon2;Parent=mikado.Chr5G1.2;Name=mikado.Chr5G1.2.exon2
+Chr5	test_loci	exon	26575711	26575797	.	-	.	ID=mikado.Chr5G1.2.exon3;Parent=mikado.Chr5G1.2;Name=mikado.Chr5G1.2.exon3
+Chr5	test_loci	exon	26575885	26575944	.	-	.	ID=mikado.Chr5G1.2.exon4;Parent=mikado.Chr5G1.2;Name=mikado.Chr5G1.2.exon4
+Chr5	test_loci	exon	26576035	26576134	.	-	.	ID=mikado.Chr5G1.2.exon5;Parent=mikado.Chr5G1.2;Name=mikado.Chr5G1.2.exon5
+Chr5	test_loci	exon	26576261	26577069	.	-	.	ID=mikado.Chr5G1.2.exon6;Parent=mikado.Chr5G1.2;Name=mikado.Chr5G1.2.exon6
+Chr5	test_loci	exon	26577163	26577288	.	-	.	ID=mikado.Chr5G1.2.exon7;Parent=mikado.Chr5G1.2;Name=mikado.Chr5G1.2.exon7
+Chr5	test_loci	exon	26577378	26577449	.	-	.	ID=mikado.Chr5G1.2.exon8;Parent=mikado.Chr5G1.2;Name=mikado.Chr5G1.2.exon8
+Chr5	test_loci	exon	26577856	26578163	.	-	.	ID=mikado.Chr5G1.2.exon9;Parent=mikado.Chr5G1.2;Name=mikado.Chr5G1.2.exon9
+###
+Chr5	test_loci	superlocus	26581218	26583874	.	-	.	ID=test_superlocus:Chr5-:26581218-26583874;Name=superlocus:Chr5-:26581218-26583874
+Chr5	test_loci	ncRNA_gene	26581218	26583874	19	-	.	ID=mikado.Chr5G2;Parent=test_superlocus:Chr5-:26581218-26583874;Name=mikado.Chr5G1;multiexonic=True
+Chr5	test_loci	ncRNA	26581218	26583874	19	-	.	ID=mikado.Chr5G2.1;Parent=mikado.Chr5G2;Name=mikado.Chr5G1.1;alias=cuff_cufflinks_star_at.23551.1;fpkm=0.4343609420;canonical_junctions=1;canonical_number=1;canonical_proportion=1.0;conf_hi=0.577851;conf_lo=0.293994;cov=11.982854;frac=0.751684;primary=True
+Chr5	test_loci	exon	26581218	26581528	.	-	.	ID=mikado.Chr5G2.1.exon1;Parent=mikado.Chr5G2.1;Name=mikado.Chr5G2.1.exon1
+Chr5	test_loci	exon	26583335	26583874	.	-	.	ID=mikado.Chr5G2.1.exon2;Parent=mikado.Chr5G2.1;Name=mikado.Chr5G2.1.exon2
+###
+Chr5	test_loci	superlocus	26584128	26584508	.	-	.	ID=test_superlocus:Chr5-:26584128-26584508;Name=superlocus:Chr5-:26584128-26584508
+Chr5	test_loci	gene	26584128	26584508	20	-	.	ID=mikado.Chr5G3;Parent=test_superlocus:Chr5-:26584128-26584508;Name=mikado.Chr5G1;multiexonic=True
+Chr5	test_loci	mRNA	26584128	26584508	20	-	.	ID=mikado.Chr5G3.1;Parent=mikado.Chr5G3;Name=mikado.Chr5G1.1;abundance=0.080689;alias=cl_Chr5.6275;canonical_junctions=1;canonical_number=1;canonical_proportion=1.0;primary=True
+Chr5	test_loci	three_prime_UTR	26584128	26584129	.	-	.	ID=mikado.Chr5G3.1.three_prime_UTR1;Parent=mikado.Chr5G3.1;Name=mikado.Chr5G3.1.three_prime_UTR1
+Chr5	test_loci	exon	26584128	26584278	.	-	.	ID=mikado.Chr5G3.1.exon1;Parent=mikado.Chr5G3.1;Name=mikado.Chr5G3.1.exon1
+Chr5	test_loci	CDS	26584130	26584278	.	-	2	ID=mikado.Chr5G3.1.CDS1;Parent=mikado.Chr5G3.1;Name=mikado.Chr5G3.1.CDS1
+Chr5	test_loci	exon	26584358	26584508	.	-	.	ID=mikado.Chr5G3.1.exon2;Parent=mikado.Chr5G3.1;Name=mikado.Chr5G3.1.exon2
+Chr5	test_loci	CDS	26584358	26584508	.	-	0	ID=mikado.Chr5G3.1.CDS2;Parent=mikado.Chr5G3.1;Name=mikado.Chr5G3.1.CDS2
+###
+Chr5	test_loci	superlocus	26584796	26601707	.	+	.	ID=test_superlocus:Chr5+:26584796-26601707;Name=superlocus:Chr5+:26584796-26601707
+Chr5	test_loci	gene	26584796	26587912	23	+	.	ID=mikado.Chr5G4;Parent=test_superlocus:Chr5+:26584796-26601707;Name=mikado.Chr5G1;multiexonic=True
+Chr5	test_loci	mRNA	26584930	26587912	23	+	.	ID=mikado.Chr5G4.1;Parent=mikado.Chr5G4;Name=mikado.Chr5G1.1;alias=st_Stringtie_STAR.21710.3;canonical_junctions=1,2,3,4,5,6,7,8,9,10;canonical_number=10;canonical_proportion=1.0;cov=2.207630;primary=True
+Chr5	test_loci	exon	26584930	26585023	.	+	.	ID=mikado.Chr5G4.1.exon1;Parent=mikado.Chr5G4.1;Name=mikado.Chr5G4.1.exon1
+Chr5	test_loci	five_prime_UTR	26584930	26585023	.	+	.	ID=mikado.Chr5G4.1.five_prime_UTR1;Parent=mikado.Chr5G4.1;Name=mikado.Chr5G4.1.five_prime_UTR1
+Chr5	test_loci	five_prime_UTR	26585220	26585222	.	+	.	ID=mikado.Chr5G4.1.five_prime_UTR2;Parent=mikado.Chr5G4.1;Name=mikado.Chr5G4.1.five_prime_UTR2
+Chr5	test_loci	exon	26585220	26585273	.	+	.	ID=mikado.Chr5G4.1.exon2;Parent=mikado.Chr5G4.1;Name=mikado.Chr5G4.1.exon2
+Chr5	test_loci	CDS	26585223	26585273	.	+	0	ID=mikado.Chr5G4.1.CDS1;Parent=mikado.Chr5G4.1;Name=mikado.Chr5G4.1.CDS1
+Chr5	test_loci	exon	26585345	26585889	.	+	.	ID=mikado.Chr5G4.1.exon3;Parent=mikado.Chr5G4.1;Name=mikado.Chr5G4.1.exon3
+Chr5	test_loci	CDS	26585345	26585889	.	+	0	ID=mikado.Chr5G4.1.CDS2;Parent=mikado.Chr5G4.1;Name=mikado.Chr5G4.1.CDS2
+Chr5	test_loci	exon	26585982	26586102	.	+	.	ID=mikado.Chr5G4.1.exon4;Parent=mikado.Chr5G4.1;Name=mikado.Chr5G4.1.exon4
+Chr5	test_loci	CDS	26585982	26586102	.	+	1	ID=mikado.Chr5G4.1.CDS3;Parent=mikado.Chr5G4.1;Name=mikado.Chr5G4.1.CDS3
+Chr5	test_loci	exon	26586217	26586294	.	+	.	ID=mikado.Chr5G4.1.exon5;Parent=mikado.Chr5G4.1;Name=mikado.Chr5G4.1.exon5
+Chr5	test_loci	CDS	26586217	26586294	.	+	0	ID=mikado.Chr5G4.1.CDS4;Parent=mikado.Chr5G4.1;Name=mikado.Chr5G4.1.CDS4
+Chr5	test_loci	exon	26586420	26586524	.	+	.	ID=mikado.Chr5G4.1.exon6;Parent=mikado.Chr5G4.1;Name=mikado.Chr5G4.1.exon6
+Chr5	test_loci	CDS	26586420	26586524	.	+	0	ID=mikado.Chr5G4.1.CDS5;Parent=mikado.Chr5G4.1;Name=mikado.Chr5G4.1.CDS5
+Chr5	test_loci	exon	26586638	26586850	.	+	.	ID=mikado.Chr5G4.1.exon7;Parent=mikado.Chr5G4.1;Name=mikado.Chr5G4.1.exon7
+Chr5	test_loci	CDS	26586638	26586850	.	+	0	ID=mikado.Chr5G4.1.CDS6;Parent=mikado.Chr5G4.1;Name=mikado.Chr5G4.1.CDS6
+Chr5	test_loci	exon	26586934	26586996	.	+	.	ID=mikado.Chr5G4.1.exon8;Parent=mikado.Chr5G4.1;Name=mikado.Chr5G4.1.exon8
+Chr5	test_loci	CDS	26586934	26586996	.	+	0	ID=mikado.Chr5G4.1.CDS7;Parent=mikado.Chr5G4.1;Name=mikado.Chr5G4.1.CDS7
+Chr5	test_loci	exon	26587084	26587202	.	+	.	ID=mikado.Chr5G4.1.exon9;Parent=mikado.Chr5G4.1;Name=mikado.Chr5G4.1.exon9
+Chr5	test_loci	CDS	26587084	26587202	.	+	0	ID=mikado.Chr5G4.1.CDS8;Parent=mikado.Chr5G4.1;Name=mikado.Chr5G4.1.CDS8
+Chr5	test_loci	exon	26587287	26587345	.	+	.	ID=mikado.Chr5G4.1.exon10;Parent=mikado.Chr5G4.1;Name=mikado.Chr5G4.1.exon10
+Chr5	test_loci	CDS	26587287	26587345	.	+	1	ID=mikado.Chr5G4.1.CDS9;Parent=mikado.Chr5G4.1;Name=mikado.Chr5G4.1.CDS9
+Chr5	test_loci	CDS	26587427	26587755	.	+	2	ID=mikado.Chr5G4.1.CDS10;Parent=mikado.Chr5G4.1;Name=mikado.Chr5G4.1.CDS10
+Chr5	test_loci	exon	26587427	26587912	.	+	.	ID=mikado.Chr5G4.1.exon11;Parent=mikado.Chr5G4.1;Name=mikado.Chr5G4.1.exon11
+Chr5	test_loci	three_prime_UTR	26587756	26587912	.	+	.	ID=mikado.Chr5G4.1.three_prime_UTR1;Parent=mikado.Chr5G4.1;Name=mikado.Chr5G4.1.three_prime_UTR1
+Chr5	test_loci	mRNA	26584796	26587912	24	+	.	ID=mikado.Chr5G4.2;Parent=mikado.Chr5G4;Name=mikado.Chr5G1.2;alias=st_Stringtie_STAR.21710.1;canonical_junctions=1,2,3,4,5,6,7,8,9,10;canonical_number=10;canonical_proportion=1.0;ccode=j;cov=25.165945;primary=False
+Chr5	test_loci	exon	26584796	26584879	.	+	.	ID=mikado.Chr5G4.2.exon1;Parent=mikado.Chr5G4.2;Name=mikado.Chr5G4.2.exon1
+Chr5	test_loci	five_prime_UTR	26584796	26584879	.	+	.	ID=mikado.Chr5G4.2.five_prime_UTR1;Parent=mikado.Chr5G4.2;Name=mikado.Chr5G4.2.five_prime_UTR1
+Chr5	test_loci	five_prime_UTR	26585220	26585222	.	+	.	ID=mikado.Chr5G4.2.five_prime_UTR2;Parent=mikado.Chr5G4.2;Name=mikado.Chr5G4.2.five_prime_UTR2
+Chr5	test_loci	exon	26585220	26585273	.	+	.	ID=mikado.Chr5G4.2.exon2;Parent=mikado.Chr5G4.2;Name=mikado.Chr5G4.2.exon2
+Chr5	test_loci	CDS	26585223	26585273	.	+	0	ID=mikado.Chr5G4.2.CDS1;Parent=mikado.Chr5G4.2;Name=mikado.Chr5G4.2.CDS1
+Chr5	test_loci	exon	26585345	26585889	.	+	.	ID=mikado.Chr5G4.2.exon3;Parent=mikado.Chr5G4.2;Name=mikado.Chr5G4.2.exon3
+Chr5	test_loci	CDS	26585345	26585889	.	+	0	ID=mikado.Chr5G4.2.CDS2;Parent=mikado.Chr5G4.2;Name=mikado.Chr5G4.2.CDS2
+Chr5	test_loci	exon	26585982	26586102	.	+	.	ID=mikado.Chr5G4.2.exon4;Parent=mikado.Chr5G4.2;Name=mikado.Chr5G4.2.exon4
+Chr5	test_loci	CDS	26585982	26586102	.	+	1	ID=mikado.Chr5G4.2.CDS3;Parent=mikado.Chr5G4.2;Name=mikado.Chr5G4.2.CDS3
+Chr5	test_loci	exon	26586217	26586294	.	+	.	ID=mikado.Chr5G4.2.exon5;Parent=mikado.Chr5G4.2;Name=mikado.Chr5G4.2.exon5
+Chr5	test_loci	CDS	26586217	26586294	.	+	0	ID=mikado.Chr5G4.2.CDS4;Parent=mikado.Chr5G4.2;Name=mikado.Chr5G4.2.CDS4
+Chr5	test_loci	exon	26586420	26586524	.	+	.	ID=mikado.Chr5G4.2.exon6;Parent=mikado.Chr5G4.2;Name=mikado.Chr5G4.2.exon6
+Chr5	test_loci	CDS	26586420	26586524	.	+	0	ID=mikado.Chr5G4.2.CDS5;Parent=mikado.Chr5G4.2;Name=mikado.Chr5G4.2.CDS5
+Chr5	test_loci	exon	26586638	26586850	.	+	.	ID=mikado.Chr5G4.2.exon7;Parent=mikado.Chr5G4.2;Name=mikado.Chr5G4.2.exon7
+Chr5	test_loci	CDS	26586638	26586850	.	+	0	ID=mikado.Chr5G4.2.CDS6;Parent=mikado.Chr5G4.2;Name=mikado.Chr5G4.2.CDS6
+Chr5	test_loci	exon	26586934	26586996	.	+	.	ID=mikado.Chr5G4.2.exon8;Parent=mikado.Chr5G4.2;Name=mikado.Chr5G4.2.exon8
+Chr5	test_loci	CDS	26586934	26586996	.	+	0	ID=mikado.Chr5G4.2.CDS7;Parent=mikado.Chr5G4.2;Name=mikado.Chr5G4.2.CDS7
+Chr5	test_loci	exon	26587084	26587202	.	+	.	ID=mikado.Chr5G4.2.exon9;Parent=mikado.Chr5G4.2;Name=mikado.Chr5G4.2.exon9
+Chr5	test_loci	CDS	26587084	26587202	.	+	0	ID=mikado.Chr5G4.2.CDS8;Parent=mikado.Chr5G4.2;Name=mikado.Chr5G4.2.CDS8
+Chr5	test_loci	exon	26587287	26587345	.	+	.	ID=mikado.Chr5G4.2.exon10;Parent=mikado.Chr5G4.2;Name=mikado.Chr5G4.2.exon10
+Chr5	test_loci	CDS	26587287	26587345	.	+	1	ID=mikado.Chr5G4.2.CDS9;Parent=mikado.Chr5G4.2;Name=mikado.Chr5G4.2.CDS9
+Chr5	test_loci	CDS	26587427	26587755	.	+	2	ID=mikado.Chr5G4.2.CDS10;Parent=mikado.Chr5G4.2;Name=mikado.Chr5G4.2.CDS10
+Chr5	test_loci	exon	26587427	26587912	.	+	.	ID=mikado.Chr5G4.2.exon11;Parent=mikado.Chr5G4.2;Name=mikado.Chr5G4.2.exon11
+Chr5	test_loci	three_prime_UTR	26587756	26587912	.	+	.	ID=mikado.Chr5G4.2.three_prime_UTR1;Parent=mikado.Chr5G4.2;Name=mikado.Chr5G4.2.three_prime_UTR1
+###
+Chr5	test_loci	gene	26588402	26592561	20	+	.	ID=mikado.Chr5G5;Parent=test_superlocus:Chr5+:26584796-26601707;Name=mikado.Chr5G2;multiexonic=True
+Chr5	test_loci	mRNA	26588402	26592561	20	+	.	ID=mikado.Chr5G5.1;Parent=mikado.Chr5G5;Name=mikado.Chr5G2.1;alias=st_Stringtie_STAR.21710.6.split1;canonical_junctions=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21;canonical_number=21;canonical_proportion=1.0;cov=0.000000;primary=True
+Chr5	test_loci	exon	26588402	26588625	.	+	.	ID=mikado.Chr5G5.1.exon1;Parent=mikado.Chr5G5.1;Name=mikado.Chr5G5.1.exon1
+Chr5	test_loci	five_prime_UTR	26588402	26588625	.	+	.	ID=mikado.Chr5G5.1.five_prime_UTR1;Parent=mikado.Chr5G5.1;Name=mikado.Chr5G5.1.five_prime_UTR1
+Chr5	test_loci	five_prime_UTR	26589196	26589237	.	+	.	ID=mikado.Chr5G5.1.five_prime_UTR2;Parent=mikado.Chr5G5.1;Name=mikado.Chr5G5.1.five_prime_UTR2
+Chr5	test_loci	exon	26589196	26589279	.	+	.	ID=mikado.Chr5G5.1.exon2;Parent=mikado.Chr5G5.1;Name=mikado.Chr5G5.1.exon2
+Chr5	test_loci	CDS	26589238	26589279	.	+	0	ID=mikado.Chr5G5.1.CDS1;Parent=mikado.Chr5G5.1;Name=mikado.Chr5G5.1.CDS1
+Chr5	test_loci	exon	26589386	26590167	.	+	.	ID=mikado.Chr5G5.1.exon3;Parent=mikado.Chr5G5.1;Name=mikado.Chr5G5.1.exon3
+Chr5	test_loci	CDS	26589386	26590167	.	+	0	ID=mikado.Chr5G5.1.CDS2;Parent=mikado.Chr5G5.1;Name=mikado.Chr5G5.1.CDS2
+Chr5	test_loci	exon	26590261	26590393	.	+	.	ID=mikado.Chr5G5.1.exon4;Parent=mikado.Chr5G5.1;Name=mikado.Chr5G5.1.exon4
+Chr5	test_loci	CDS	26590261	26590393	.	+	1	ID=mikado.Chr5G5.1.CDS3;Parent=mikado.Chr5G5.1;Name=mikado.Chr5G5.1.CDS3
+Chr5	test_loci	exon	26590495	26590566	.	+	.	ID=mikado.Chr5G5.1.exon5;Parent=mikado.Chr5G5.1;Name=mikado.Chr5G5.1.exon5
+Chr5	test_loci	CDS	26590495	26590566	.	+	0	ID=mikado.Chr5G5.1.CDS4;Parent=mikado.Chr5G5.1;Name=mikado.Chr5G5.1.CDS4
+Chr5	test_loci	exon	26590641	26590739	.	+	.	ID=mikado.Chr5G5.1.exon6;Parent=mikado.Chr5G5.1;Name=mikado.Chr5G5.1.exon6
+Chr5	test_loci	CDS	26590641	26590739	.	+	0	ID=mikado.Chr5G5.1.CDS5;Parent=mikado.Chr5G5.1;Name=mikado.Chr5G5.1.CDS5
+Chr5	test_loci	exon	26590880	26591092	.	+	.	ID=mikado.Chr5G5.1.exon7;Parent=mikado.Chr5G5.1;Name=mikado.Chr5G5.1.exon7
+Chr5	test_loci	CDS	26590880	26591092	.	+	0	ID=mikado.Chr5G5.1.CDS6;Parent=mikado.Chr5G5.1;Name=mikado.Chr5G5.1.CDS6
+Chr5	test_loci	exon	26591174	26591236	.	+	.	ID=mikado.Chr5G5.1.exon8;Parent=mikado.Chr5G5.1;Name=mikado.Chr5G5.1.exon8
+Chr5	test_loci	CDS	26591174	26591236	.	+	0	ID=mikado.Chr5G5.1.CDS7;Parent=mikado.Chr5G5.1;Name=mikado.Chr5G5.1.CDS7
+Chr5	test_loci	exon	26591324	26591442	.	+	.	ID=mikado.Chr5G5.1.exon9;Parent=mikado.Chr5G5.1;Name=mikado.Chr5G5.1.exon9
+Chr5	test_loci	CDS	26591324	26591442	.	+	0	ID=mikado.Chr5G5.1.CDS8;Parent=mikado.Chr5G5.1;Name=mikado.Chr5G5.1.CDS8
+Chr5	test_loci	exon	26591520	26591578	.	+	.	ID=mikado.Chr5G5.1.exon10;Parent=mikado.Chr5G5.1;Name=mikado.Chr5G5.1.exon10
+Chr5	test_loci	CDS	26591520	26591578	.	+	1	ID=mikado.Chr5G5.1.CDS9;Parent=mikado.Chr5G5.1;Name=mikado.Chr5G5.1.CDS9
+Chr5	test_loci	exon	26591681	26592002	.	+	.	ID=mikado.Chr5G5.1.exon11;Parent=mikado.Chr5G5.1;Name=mikado.Chr5G5.1.exon11
+Chr5	test_loci	CDS	26591681	26592002	.	+	2	ID=mikado.Chr5G5.1.CDS10;Parent=mikado.Chr5G5.1;Name=mikado.Chr5G5.1.CDS10
+Chr5	test_loci	exon	26592528	26592561	.	+	.	ID=mikado.Chr5G5.1.exon12;Parent=mikado.Chr5G5.1;Name=mikado.Chr5G5.1.exon12
+Chr5	test_loci	CDS	26592528	26592561	.	+	1	ID=mikado.Chr5G5.1.CDS11;Parent=mikado.Chr5G5.1;Name=mikado.Chr5G5.1.CDS11
+###
+Chr5	test_loci	gene	26592649	26595691	19	+	.	ID=mikado.Chr5G6;Parent=test_superlocus:Chr5+:26584796-26601707;Name=mikado.Chr5G3;multiexonic=True
+Chr5	test_loci	mRNA	26592720	26595691	19	+	.	ID=mikado.Chr5G6.1;Parent=mikado.Chr5G6;Name=mikado.Chr5G3.1;alias=st_Stringtie_STAR.21710.7.split2;canonical_junctions=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20;canonical_number=20;canonical_proportion=1.0;cov=0.000000;primary=True
+Chr5	test_loci	exon	26592720	26593365	.	+	.	ID=mikado.Chr5G6.1.exon1;Parent=mikado.Chr5G6.1;Name=mikado.Chr5G6.1.exon1
+Chr5	test_loci	CDS	26592720	26593365	.	+	0	ID=mikado.Chr5G6.1.CDS1;Parent=mikado.Chr5G6.1;Name=mikado.Chr5G6.1.CDS1
+Chr5	test_loci	exon	26593449	26593836	.	+	.	ID=mikado.Chr5G6.1.exon2;Parent=mikado.Chr5G6.1;Name=mikado.Chr5G6.1.exon2
+Chr5	test_loci	CDS	26593449	26593836	.	+	2	ID=mikado.Chr5G6.1.CDS2;Parent=mikado.Chr5G6.1;Name=mikado.Chr5G6.1.CDS2
+Chr5	test_loci	exon	26593930	26594062	.	+	.	ID=mikado.Chr5G6.1.exon3;Parent=mikado.Chr5G6.1;Name=mikado.Chr5G6.1.exon3
+Chr5	test_loci	CDS	26593930	26594062	.	+	1	ID=mikado.Chr5G6.1.CDS3;Parent=mikado.Chr5G6.1;Name=mikado.Chr5G6.1.CDS3
+Chr5	test_loci	exon	26594172	26594243	.	+	.	ID=mikado.Chr5G6.1.exon4;Parent=mikado.Chr5G6.1;Name=mikado.Chr5G6.1.exon4
+Chr5	test_loci	CDS	26594172	26594243	.	+	0	ID=mikado.Chr5G6.1.CDS4;Parent=mikado.Chr5G6.1;Name=mikado.Chr5G6.1.CDS4
+Chr5	test_loci	exon	26594318	26594416	.	+	.	ID=mikado.Chr5G6.1.exon5;Parent=mikado.Chr5G6.1;Name=mikado.Chr5G6.1.exon5
+Chr5	test_loci	CDS	26594318	26594416	.	+	0	ID=mikado.Chr5G6.1.CDS5;Parent=mikado.Chr5G6.1;Name=mikado.Chr5G6.1.CDS5
+Chr5	test_loci	exon	26594569	26594772	.	+	.	ID=mikado.Chr5G6.1.exon6;Parent=mikado.Chr5G6.1;Name=mikado.Chr5G6.1.exon6
+Chr5	test_loci	CDS	26594569	26594772	.	+	0	ID=mikado.Chr5G6.1.CDS6;Parent=mikado.Chr5G6.1;Name=mikado.Chr5G6.1.CDS6
+Chr5	test_loci	exon	26594860	26594922	.	+	.	ID=mikado.Chr5G6.1.exon7;Parent=mikado.Chr5G6.1;Name=mikado.Chr5G6.1.exon7
+Chr5	test_loci	CDS	26594860	26594922	.	+	0	ID=mikado.Chr5G6.1.CDS7;Parent=mikado.Chr5G6.1;Name=mikado.Chr5G6.1.CDS7
+Chr5	test_loci	exon	26595003	26595121	.	+	.	ID=mikado.Chr5G6.1.exon8;Parent=mikado.Chr5G6.1;Name=mikado.Chr5G6.1.exon8
+Chr5	test_loci	CDS	26595003	26595121	.	+	0	ID=mikado.Chr5G6.1.CDS8;Parent=mikado.Chr5G6.1;Name=mikado.Chr5G6.1.CDS8
+Chr5	test_loci	exon	26595210	26595268	.	+	.	ID=mikado.Chr5G6.1.exon9;Parent=mikado.Chr5G6.1;Name=mikado.Chr5G6.1.exon9
+Chr5	test_loci	CDS	26595210	26595268	.	+	1	ID=mikado.Chr5G6.1.CDS9;Parent=mikado.Chr5G6.1;Name=mikado.Chr5G6.1.CDS9
+Chr5	test_loci	exon	26595366	26595691	.	+	.	ID=mikado.Chr5G6.1.exon10;Parent=mikado.Chr5G6.1;Name=mikado.Chr5G6.1.exon10
+Chr5	test_loci	CDS	26595366	26595691	.	+	2	ID=mikado.Chr5G6.1.CDS10;Parent=mikado.Chr5G6.1;Name=mikado.Chr5G6.1.CDS10
+Chr5	test_loci	mRNA	26592649	26595268	21	+	.	ID=mikado.Chr5G6.2;Parent=mikado.Chr5G6;Name=mikado.Chr5G3.2;abundance=2.390309;alias=cl_Chr5.6283;canonical_junctions=1,2,3,4,5,6,7,8;canonical_number=8;canonical_proportion=1.0;ccode=j;primary=False
+Chr5	test_loci	five_prime_UTR	26592649	26592719	.	+	.	ID=mikado.Chr5G6.2.five_prime_UTR1;Parent=mikado.Chr5G6.2;Name=mikado.Chr5G6.2.five_prime_UTR1
+Chr5	test_loci	exon	26592649	26593365	.	+	.	ID=mikado.Chr5G6.2.exon1;Parent=mikado.Chr5G6.2;Name=mikado.Chr5G6.2.exon1
+Chr5	test_loci	CDS	26592720	26593365	.	+	0	ID=mikado.Chr5G6.2.CDS1;Parent=mikado.Chr5G6.2;Name=mikado.Chr5G6.2.CDS1
+Chr5	test_loci	exon	26593449	26593836	.	+	.	ID=mikado.Chr5G6.2.exon2;Parent=mikado.Chr5G6.2;Name=mikado.Chr5G6.2.exon2
+Chr5	test_loci	CDS	26593449	26593836	.	+	2	ID=mikado.Chr5G6.2.CDS2;Parent=mikado.Chr5G6.2;Name=mikado.Chr5G6.2.CDS2
+Chr5	test_loci	exon	26593930	26594095	.	+	.	ID=mikado.Chr5G6.2.exon3;Parent=mikado.Chr5G6.2;Name=mikado.Chr5G6.2.exon3
+Chr5	test_loci	CDS	26593930	26594095	.	+	1	ID=mikado.Chr5G6.2.CDS3;Parent=mikado.Chr5G6.2;Name=mikado.Chr5G6.2.CDS3
+Chr5	test_loci	exon	26594172	26594243	.	+	.	ID=mikado.Chr5G6.2.exon4;Parent=mikado.Chr5G6.2;Name=mikado.Chr5G6.2.exon4
+Chr5	test_loci	CDS	26594172	26594243	.	+	0	ID=mikado.Chr5G6.2.CDS4;Parent=mikado.Chr5G6.2;Name=mikado.Chr5G6.2.CDS4
+Chr5	test_loci	exon	26594318	26594416	.	+	.	ID=mikado.Chr5G6.2.exon5;Parent=mikado.Chr5G6.2;Name=mikado.Chr5G6.2.exon5
+Chr5	test_loci	CDS	26594318	26594416	.	+	0	ID=mikado.Chr5G6.2.CDS5;Parent=mikado.Chr5G6.2;Name=mikado.Chr5G6.2.CDS5
+Chr5	test_loci	exon	26594569	26594772	.	+	.	ID=mikado.Chr5G6.2.exon6;Parent=mikado.Chr5G6.2;Name=mikado.Chr5G6.2.exon6
+Chr5	test_loci	CDS	26594569	26594772	.	+	0	ID=mikado.Chr5G6.2.CDS6;Parent=mikado.Chr5G6.2;Name=mikado.Chr5G6.2.CDS6
+Chr5	test_loci	exon	26594860	26594922	.	+	.	ID=mikado.Chr5G6.2.exon7;Parent=mikado.Chr5G6.2;Name=mikado.Chr5G6.2.exon7
+Chr5	test_loci	CDS	26594860	26594922	.	+	0	ID=mikado.Chr5G6.2.CDS7;Parent=mikado.Chr5G6.2;Name=mikado.Chr5G6.2.CDS7
+Chr5	test_loci	exon	26595003	26595121	.	+	.	ID=mikado.Chr5G6.2.exon8;Parent=mikado.Chr5G6.2;Name=mikado.Chr5G6.2.exon8
+Chr5	test_loci	CDS	26595003	26595121	.	+	0	ID=mikado.Chr5G6.2.CDS8;Parent=mikado.Chr5G6.2;Name=mikado.Chr5G6.2.CDS8
+Chr5	test_loci	CDS	26595210	26595267	.	+	1	ID=mikado.Chr5G6.2.CDS9;Parent=mikado.Chr5G6.2;Name=mikado.Chr5G6.2.CDS9
+Chr5	test_loci	exon	26595210	26595268	.	+	.	ID=mikado.Chr5G6.2.exon9;Parent=mikado.Chr5G6.2;Name=mikado.Chr5G6.2.exon9
+Chr5	test_loci	three_prime_UTR	26595268	26595268	.	+	.	ID=mikado.Chr5G6.2.three_prime_UTR1;Parent=mikado.Chr5G6.2;Name=mikado.Chr5G6.2.three_prime_UTR1
+###
+Chr5	test_loci	gene	26596207	26598231	20	+	.	ID=mikado.Chr5G7;Parent=test_superlocus:Chr5+:26584796-26601707;Name=mikado.Chr5G4;multiexonic=False
+Chr5	test_loci	mRNA	26596207	26598231	20	+	.	ID=mikado.Chr5G7.1;Parent=mikado.Chr5G7;Name=mikado.Chr5G4.1;alias=st_Stringtie_STAR.21710.9.split3;canonical_junctions=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21;canonical_number=21;canonical_proportion=1.0;cov=0.000000;maximal=False;primary=True
+Chr5	test_loci	CDS	26596207	26598192	.	+	0	ID=mikado.Chr5G7.1.CDS1;Parent=mikado.Chr5G7.1;Name=mikado.Chr5G7.1.CDS1
+Chr5	test_loci	exon	26596207	26598231	.	+	.	ID=mikado.Chr5G7.1.exon1;Parent=mikado.Chr5G7.1;Name=mikado.Chr5G7.1.exon1
+Chr5	test_loci	three_prime_UTR	26598193	26598231	.	+	.	ID=mikado.Chr5G7.1.three_prime_UTR1;Parent=mikado.Chr5G7.1;Name=mikado.Chr5G7.1.three_prime_UTR1
+###
+Chr5	test_loci	gene	26599417	26601137	20	+	.	ID=mikado.Chr5G8;Parent=test_superlocus:Chr5+:26584796-26601707;Name=mikado.Chr5G5;multiexonic=True
+Chr5	test_loci	mRNA	26599417	26601137	20	+	.	ID=mikado.Chr5G8.1;Parent=mikado.Chr5G8;Name=mikado.Chr5G5.1;abundance=0.371780;alias=cl_Chr5.6286;canonical_junctions=1,2,3,4,5,6;canonical_number=6;canonical_proportion=1.0;primary=True
+Chr5	test_loci	five_prime_UTR	26599417	26599612	.	+	.	ID=mikado.Chr5G8.1.five_prime_UTR1;Parent=mikado.Chr5G8.1;Name=mikado.Chr5G8.1.five_prime_UTR1
+Chr5	test_loci	exon	26599417	26599654	.	+	.	ID=mikado.Chr5G8.1.exon1;Parent=mikado.Chr5G8.1;Name=mikado.Chr5G8.1.exon1
+Chr5	test_loci	CDS	26599613	26599654	.	+	0	ID=mikado.Chr5G8.1.CDS1;Parent=mikado.Chr5G8.1;Name=mikado.Chr5G8.1.CDS1
+Chr5	test_loci	exon	26599767	26600053	.	+	.	ID=mikado.Chr5G8.1.exon2;Parent=mikado.Chr5G8.1;Name=mikado.Chr5G8.1.exon2
+Chr5	test_loci	CDS	26599767	26600053	.	+	0	ID=mikado.Chr5G8.1.CDS2;Parent=mikado.Chr5G8.1;Name=mikado.Chr5G8.1.CDS2
+Chr5	test_loci	exon	26600151	26600244	.	+	.	ID=mikado.Chr5G8.1.exon3;Parent=mikado.Chr5G8.1;Name=mikado.Chr5G8.1.exon3
+Chr5	test_loci	CDS	26600151	26600244	.	+	1	ID=mikado.Chr5G8.1.CDS3;Parent=mikado.Chr5G8.1;Name=mikado.Chr5G8.1.CDS3
+Chr5	test_loci	exon	26600314	26600394	.	+	.	ID=mikado.Chr5G8.1.exon4;Parent=mikado.Chr5G8.1;Name=mikado.Chr5G8.1.exon4
+Chr5	test_loci	CDS	26600314	26600394	.	+	0	ID=mikado.Chr5G8.1.CDS4;Parent=mikado.Chr5G8.1;Name=mikado.Chr5G8.1.CDS4
+Chr5	test_loci	exon	26600497	26600616	.	+	.	ID=mikado.Chr5G8.1.exon5;Parent=mikado.Chr5G8.1;Name=mikado.Chr5G8.1.exon5
+Chr5	test_loci	CDS	26600497	26600616	.	+	0	ID=mikado.Chr5G8.1.CDS5;Parent=mikado.Chr5G8.1;Name=mikado.Chr5G8.1.CDS5
+Chr5	test_loci	exon	26600696	26600908	.	+	.	ID=mikado.Chr5G8.1.exon6;Parent=mikado.Chr5G8.1;Name=mikado.Chr5G8.1.exon6
+Chr5	test_loci	CDS	26600696	26600908	.	+	0	ID=mikado.Chr5G8.1.CDS6;Parent=mikado.Chr5G8.1;Name=mikado.Chr5G8.1.CDS6
+Chr5	test_loci	CDS	26600987	26601085	.	+	0	ID=mikado.Chr5G8.1.CDS7;Parent=mikado.Chr5G8.1;Name=mikado.Chr5G8.1.CDS7
+Chr5	test_loci	exon	26600987	26601137	.	+	.	ID=mikado.Chr5G8.1.exon7;Parent=mikado.Chr5G8.1;Name=mikado.Chr5G8.1.exon7
+Chr5	test_loci	three_prime_UTR	26601086	26601137	.	+	.	ID=mikado.Chr5G8.1.three_prime_UTR1;Parent=mikado.Chr5G8.1;Name=mikado.Chr5G8.1.three_prime_UTR1
+###
+Chr5	test_loci	superlocus	26602733	26604736	.	-	.	ID=test_superlocus:Chr5-:26602733-26604736;Name=superlocus:Chr5-:26602733-26604736
+Chr5	test_loci	ncRNA_gene	26602733	26604736	19	-	.	ID=mikado.Chr5G9;Parent=test_superlocus:Chr5-:26602733-26604736;Name=mikado.Chr5G1;multiexonic=True
+Chr5	test_loci	ncRNA	26602733	26604736	19	-	.	ID=mikado.Chr5G9.1;Parent=mikado.Chr5G9;Name=mikado.Chr5G1.1;alias=tr_c60_g1_i1.mrna1.189;canonical_junctions=1;canonical_number=1;canonical_proportion=1.0;gene_name=c60_g1_i1;primary=True
+Chr5	test_loci	exon	26602733	26603638	.	-	.	ID=mikado.Chr5G9.1.exon1;Parent=mikado.Chr5G9.1;Name=mikado.Chr5G9.1.exon1
+Chr5	test_loci	exon	26603727	26604736	.	-	.	ID=mikado.Chr5G9.1.exon2;Parent=mikado.Chr5G9.1;Name=mikado.Chr5G9.1.exon2
+###
+Chr5	test_loci	superlocus	26608458	26608780	.	.	.	ID=test_superlocus:Chr5None:26608458-26608780;Name=superlocus:Chr5None:26608458-26608780
+Chr5	test_loci	ncRNA_gene	26608458	26608780	19	.	.	ID=mikado.Chr5G10;Parent=test_superlocus:Chr5None:26608458-26608780;Name=mikado.Chr5G2;multiexonic=False
+Chr5	test_loci	ncRNA	26608458	26608780	19	.	.	ID=mikado.Chr5G10.1;Parent=mikado.Chr5G10;Name=mikado.Chr5G2.1;alias=cuff_cufflinks_star_at.23559.1;fpkm=6.3627773331;conf_hi=1.805438;conf_lo=0.954303;cov=159.117719;frac=1.000000;primary=True
+Chr5	test_loci	exon	26608458	26608780	.	.	.	ID=mikado.Chr5G10.1.exon1;Parent=mikado.Chr5G10.1;Name=mikado.Chr5G10.1.exon1
+###
+Chr5	test_loci	superlocus	26609249	26610543	.	.	.	ID=test_superlocus:Chr5None:26609249-26610543;Name=superlocus:Chr5None:26609249-26610543
+Chr5	test_loci	ncRNA_gene	26609249	26610543	19	.	.	ID=mikado.Chr5G11;Parent=test_superlocus:Chr5None:26609249-26610543;Name=mikado.Chr5G2;multiexonic=False
+Chr5	test_loci	ncRNA	26609249	26610543	19	.	.	ID=mikado.Chr5G11.1;Parent=mikado.Chr5G11;Name=mikado.Chr5G2.1;alias=tr_c6_g1_i1.mrna1.412;gene_name=c6_g1_i1;primary=True
+Chr5	test_loci	exon	26609249	26610543	.	.	.	ID=mikado.Chr5G11.1.exon1;Parent=mikado.Chr5G11.1;Name=mikado.Chr5G11.1.exon1
+###
+Chr5	test_loci	superlocus	26611509	26612012	.	.	.	ID=test_superlocus:Chr5None:26611509-26612012;Name=superlocus:Chr5None:26611509-26612012
+Chr5	test_loci	ncRNA_gene	26611509	26612012	19	.	.	ID=mikado.Chr5G12;Parent=test_superlocus:Chr5None:26611509-26612012;Name=mikado.Chr5G2;multiexonic=False
+Chr5	test_loci	ncRNA	26611509	26612012	19	.	.	ID=mikado.Chr5G12.1;Parent=mikado.Chr5G12;Name=mikado.Chr5G2.1;alias=cuff_cufflinks_star_at.23561.1;fpkm=1.3859792090;conf_hi=1.537232;conf_lo=0.793410;cov=34.382718;frac=1.000000;primary=True
+Chr5	test_loci	exon	26611509	26612012	.	.	.	ID=mikado.Chr5G12.1.exon1;Parent=mikado.Chr5G12.1;Name=mikado.Chr5G12.1.exon1
+###
+Chr5	test_loci	superlocus	26612165	26614294	.	-	.	ID=test_superlocus:Chr5-:26612165-26614294;Name=superlocus:Chr5-:26612165-26614294
+Chr5	test_loci	ncRNA_gene	26612165	26614294	19	-	.	ID=mikado.Chr5G13;Parent=test_superlocus:Chr5-:26612165-26614294;Name=mikado.Chr5G3;multiexonic=True
+Chr5	test_loci	ncRNA	26612165	26614294	19	-	.	ID=mikado.Chr5G13.1;Parent=mikado.Chr5G13;Name=mikado.Chr5G3.1;alias=cuff_cufflinks_star_at.23562.2;fpkm=0.2083702932;canonical_junctions=1,2;canonical_number=2;canonical_proportion=1.0;conf_hi=0.325740;conf_lo=0.100228;cov=5.130672;frac=0.449507;primary=True
+Chr5	test_loci	exon	26612165	26612727	.	-	.	ID=mikado.Chr5G13.1.exon1;Parent=mikado.Chr5G13.1;Name=mikado.Chr5G13.1.exon1
+Chr5	test_loci	exon	26612846	26612932	.	-	.	ID=mikado.Chr5G13.1.exon2;Parent=mikado.Chr5G13.1;Name=mikado.Chr5G13.1.exon2
+Chr5	test_loci	exon	26613900	26614294	.	-	.	ID=mikado.Chr5G13.1.exon3;Parent=mikado.Chr5G13.1;Name=mikado.Chr5G13.1.exon3
+###
+Chr5	test_loci	superlocus	26614714	26614982	.	.	.	ID=test_superlocus:Chr5None:26614714-26614982;Name=superlocus:Chr5None:26614714-26614982
+Chr5	test_loci	ncRNA_gene	26614714	26614982	19	.	.	ID=mikado.Chr5G14;Parent=test_superlocus:Chr5None:26614714-26614982;Name=mikado.Chr5G3;multiexonic=False
+Chr5	test_loci	ncRNA	26614714	26614982	19	.	.	ID=mikado.Chr5G14.1;Parent=mikado.Chr5G14;Name=mikado.Chr5G3.1;alias=tr_c120_g1_i1.mrna1.89;gene_name=c120_g1_i1;primary=True
+Chr5	test_loci	exon	26614714	26614982	.	.	.	ID=mikado.Chr5G14.1.exon1;Parent=mikado.Chr5G14.1;Name=mikado.Chr5G14.1.exon1
+###

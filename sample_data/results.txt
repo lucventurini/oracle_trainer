@@ -1,0 +1,8 @@
+MODEL1	datasets/70/8A/mikado.Chr5G3.1	FAILED
+MODEL2	datasets/29/ED/mikado.Chr5G4.2	FINISHED
+MODEL3	datasets/ED/55/mikado.Chr5G4.1	FINISHED
+MODEL4	datasets/48/3C/mikado.Chr5G5.1	FINISHED
+MODEL5	datasets/A5/46/mikado.Chr5G6.2	FINISHED
+MODEL6	datasets/BD/2E/mikado.Chr5G6.1	FINISHED
+MODEL7	datasets/C5/F1/mikado.Chr5G7.1	FINISHED
+MODEL8	datasets/A0/89/mikado.Chr5G8.1	FINISHED
