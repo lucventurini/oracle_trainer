@@ -3,8 +3,11 @@ This is a collection of scripts to perform the training of TwinScan/SNAP/Augustu
 Required:
 
 augustus	(set AUGUSTUS_CONFIG_PATH accordingly)
+
 N-scan and IPE	(http://mblab.wustl.edu/software.html)
+
 EVAL   	   	(http://mblab.wustl.edu/software.html; set the parameter "EVAL_GTF" to point to the directory containing its scripts)
+
 gtf2gff3	(http://www.sequenceontology.org/software/GAL_Code/GAL_0.2.2_stand_alone_scripts.tar.gz)
 
 
