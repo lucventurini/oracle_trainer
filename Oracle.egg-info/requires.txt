@@ -1,0 +1,8 @@
+biopython>=1.6
+numpy
+
+[mysql]
+mysqlclient>=1.3.6
+
+[postgresql]
+psycopg2

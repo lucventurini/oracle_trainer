@@ -1,0 +1,93 @@
+# geneid parameter file: S.lycopersicum
+# Comment lines must begin with '#'
+
+# Non-homology penalty
+NO_SCORE
+0
+
+# Number of isochores
+number_of_isochores
+1
+
+# PARAMETERS FROM ISOCHORE 1
+
+# %GC
+boundaries_of_isochore
+0  100
+
+# Exons score: cutoffs
+Absolute_cutoff_exons
+-150 -150 -150 -150
+
+Coding_cutoff_oligos
+-100 -150 -150 -150
+
+# Exon score: factors
+Site_factor
+0.60 0.60 0.60 0.60
+
+Exon_factor
+0.5 0.5 0.5 0.5
+
+HSP_factor
+1.0 1.0 1.0 1.0
+
+Exon_weigths
+-4.0 -4.0 -4.0 -4.0
+
+# Site prediction: Position Weight Arrays
+# Lenght, Offset, Cutoff and order (Markov model)
+Start_profile 
+
+Acceptor_profile
+
+Donor_profile
+
+Stop_profile
+4 0 -9999 0
+# Transition stop probabilities at every position
+1 A 0
+1 C 0
+1 G 0
+1 T 0
+2 A -9999
+2 C -9999
+2 G -9999
+2 T 0.000
+3 A 0.000
+3 C -9999
+3 G 0.000
+3 T -9999
+4 A 0.000
+4 C -9999
+4 G 0.000
+4 T -9999
+
+
+# Exon prediction: Markov model
+Markov_oligo_logs_file
+
+# Donors per acceptor to build exons
+maximum_number_of_donors_per_acceptor_site
+5
+
+# GENE MODEL: Rules about gene assembling (GenAmic)
+General_Gene_Model
+# INTRAgenic connections
+First+:Internal+                Internal+:Terminal+             25:7000 block
+Terminal-:Internal-             First-:Internal-                25:7000 blockr
+# External features
+Promoter+                       First+:Single+                  50:4000
+Terminal+:Single+               aataaa+                         50:4000
+First-:Single-                  Promoter-                       50:4000
+aataaa-                         Single-:Terminal-               50:4000
+# INTERgenic conections
+aataaa+:Terminal+:Single+       Single+:First+:Promoter+        700:Infinity
+aataaa+:Terminal+:Single+       Single-:Terminal-:aataaa-       700:Infinity
+Promoter-:First-:Single-        Single+:First+:Promoter+        700:Infinity
+Promoter-:First-:Single-        Single-:Terminal-:aataaa-       700:Infinity
+# BEGINNING and END of prediction
+Begin+                          First+:Internal+:Terminal+:Single+ 0:Infinity
+Begin-                          First-:Internal-:Terminal-:Single- 0:Infinity
+First+:Internal+:Terminal+:Single+               End+              0:Infinity
+First-:Internal-:Terminal-:Single-               End-              0:Infinity

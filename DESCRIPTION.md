@@ -1,0 +1,1 @@
+This is a suite of scripts designed to help training gene predictors (Augustus, GeneID, TwinScan, SNAP)
